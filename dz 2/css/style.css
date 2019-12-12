@@ -1,0 +1,26 @@
+a {
+    color: #689CD2;
+    text-decoration: none;
+}
+.header {
+   display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #ffffff;
+    color: cadetblue;
+    font-family: Roboto-Lightitalic;
+}
+.header__section {
+    display: flex;
+    align-items: center;
+}
+.header__item {
+    padding: 50px;
+    font-size: 20px;
+    margin-left: 5px;
+    transition: 1s;
+}
+.header__item::beafour {
+    color: pink;
+}
+
